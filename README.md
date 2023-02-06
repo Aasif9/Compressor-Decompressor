@@ -1,6 +1,6 @@
-Compressor/Decompressor Application in Java
+<b>Compressor/Decompressor Application in Java</b>
 <br>
-Overview
+<b>Overview</b>
 This application provides the functionality to compress and decompress files using the popular Huffman coding algorithm.
 <br>
 The application is written in Java and can be run on any platform that has a Java Virtual Machine (JVM) installed.
@@ -16,7 +16,7 @@ Uses the Huffman coding algorithm to perform the compression and decompression.
 <br>
 Has a user-friendly interface that makes it easy to use.
 <br>
-System Requirements
+<b>System Requirements</b>
 <br>
 Java 8 or later
 <br>
@@ -24,8 +24,9 @@ JVM
 <br>
 NetBeans IDE
 <br>
-
-Usage
+</b>
+<b>Usage</b>
+<br>
 The application provides an intuitive graphical user interface (GUI) that makes it easy to use. 
 <br>
 To compress a file, simply select the file you want to compress and choose the compression options.
