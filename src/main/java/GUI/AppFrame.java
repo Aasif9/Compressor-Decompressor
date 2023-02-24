@@ -41,6 +41,7 @@ public class AppFrame extends JFrame implements ActionListener{
         this.setSize(500,200);
         this.getContentPane().setBackground(Color.black);
         
+        
         this.setVisible(true);
     }
 
@@ -67,12 +68,13 @@ public class AppFrame extends JFrame implements ActionListener{
             JFileChooser filechooser=new JFileChooser();
             int response=filechooser.showSaveDialog(null);
             
+            
             if(response==JFileChooser.APPROVE_OPTION){
                 File file = new File(filechooser.getSelectedFile().getAbsolutePath());
                 System.out.println(file);
-                try{
-                    decompressor.method(file);
-                    
+                try
+                {
+                    decompressor.method(file);             
                 }
                 catch(Exception excp){
                     JOptionPane.showMessageDialog(null, excp.toString());
