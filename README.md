@@ -1,4 +1,4 @@
-<b>Compressor/Decompressor Application in Java</b>
+<h1>Compressor/Decompressor Application in Java</h1>
 <br>
 <b>Overview</b>
 This application provides the functionality to compress and decompress files using the popular Huffman coding algorithm.
